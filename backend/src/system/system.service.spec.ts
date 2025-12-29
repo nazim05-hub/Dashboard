@@ -5,8 +5,6 @@ import { ConfigService } from '@nestjs/config';
 
 describe('SystemService', () => {
   let service: SystemService;
-  let httpService: HttpService;
-  let configService: ConfigService;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
@@ -32,8 +30,6 @@ describe('SystemService', () => {
     }).compile();
 
     service = module.get<SystemService>(SystemService);
-    httpService = module.get<HttpService>(HttpService);
-    configService = module.get<ConfigService>(ConfigService);
   });
 
   it('should be defined', () => {
