@@ -91,7 +91,7 @@ function Dashboard() {
       <Grid>
         {/* Health Status */}
         <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
-          <Card shadow="sm" padding="lg" radius="md" withBorder>
+          <Card shadow="sm" p="lg" radius="md" withBorder>
             <Stack gap="xs">
               <Text fw={500} size="lg">
                 Статус здоровья
@@ -124,7 +124,7 @@ function Dashboard() {
         {/* Stats */}
         {stats && (
           <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
-            <Card shadow="sm" padding="lg" radius="md" withBorder>
+            <Card shadow="sm" p="lg" radius="md" withBorder>
               <Stack gap="xs">
                 <Text fw={500} size="lg">
                   Общая статистика
@@ -149,7 +149,7 @@ function Dashboard() {
         {/* Bandwidth Stats */}
         {bandwidthStats && (
           <Grid.Col span={{ base: 12, md: 6, lg: 4 }}>
-            <Card shadow="sm" padding="lg" radius="md" withBorder>
+            <Card shadow="sm" p="lg" radius="md" withBorder>
               <Stack gap="xs">
                 <Text fw={500} size="lg">
                   Статистика пропускной способности
@@ -174,7 +174,7 @@ function Dashboard() {
 
       {/* Nodes Statistics */}
       {nodesStats && (
-        <Paper shadow="sm" padding="lg" radius="md" withBorder>
+        <Paper shadow="sm" p="lg" radius="md" withBorder>
           <Title order={3} mb="md">
             Статистика узлов
           </Title>
@@ -218,7 +218,7 @@ function Dashboard() {
 
       {/* Nodes Metrics */}
       {nodesMetrics && (
-        <Paper shadow="sm" padding="lg" radius="md" withBorder>
+        <Paper shadow="sm" p="lg" radius="md" withBorder>
           <Title order={3} mb="md">
             Метрики узлов
           </Title>
@@ -264,4 +264,3 @@ function Dashboard() {
 }
 
 export default Dashboard;
-
