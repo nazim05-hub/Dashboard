@@ -17,7 +17,7 @@
     "@mantine/charts": "^7.0.0",
     "@tabler/icons-react": "^2.40.0",
     "axios": "^1.6.0",
-    "react-router-dom": "^6.20.0"
+    "react-router-dom": "^7.11.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
