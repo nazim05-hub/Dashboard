@@ -14,7 +14,7 @@
     "react-dom": "^19.2.3",
     "@mantine/core": "^8.3.10",
     "@mantine/hooks": "^7.0.0",
-    "@mantine/charts": "^7.0.0",
+    "@mantine/charts": "^8.3.10",
     "@tabler/icons-react": "^2.40.0",
     "axios": "^1.6.0",
     "react-router-dom": "^6.20.0"
